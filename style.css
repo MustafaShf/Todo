@@ -74,3 +74,20 @@ footer h3{
     font-weight: 1000;
     
 }
+@media (max-width:610px) {
+    
+    button{
+        background-color: #f3a805;
+    }
+    .MainTodoBox{
+        width: 60vw;
+        
+    }
+    .submit{
+       margin: 0% 40%; 
+    }
+   
+  }
+  @media (min-width:1050px) and (max-width:1472px) {
+    
+  }
