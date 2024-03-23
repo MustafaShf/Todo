@@ -77,7 +77,8 @@ footer h3{
 @media (max-width:610px) {
     
     button{
-        background-color: #f3a805;
+        background-color: red;
+        
     }
     .MainTodoBox{
         width: 60vw;
@@ -86,7 +87,25 @@ footer h3{
     .submit{
        margin: 0% 40%; 
     }
-   
+   input{
+    width: 50%;
+    margin: 2 auto; /* Updated line */
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+   }
+   .inputSubmit{
+    margin-bottom: 1.4em;
+   }
+   ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+   }
+   .crossBtn{
+    font-size: 20px;
+   }
   }
   @media (min-width:1050px) and (max-width:1472px) {
     
